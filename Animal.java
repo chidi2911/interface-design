@@ -56,7 +56,7 @@ public void hit()
 {
 if (isAlive)
 {
-System.out.println("Pikachu used THUNDER SHOCK!");
+System.out.println("Duck pecked!");
 health--;
 
 
@@ -71,7 +71,7 @@ if (this.health == 0)
 this.isAlive = false;
 count --;
 System.out.println( "*************************************************");
-System.out.println(this.name + " fainted, Pikachu Gained 115 EXP.Points !!");
+System.out.println(this.name + " fainted, Duck gained points");
 System.out.println( "*************************************************");
 }
 }

@@ -2,10 +2,10 @@ public class AnimalDriver {
 
 public static void main(String[] args) {
 
-CuriousBunnny curiousBunny = new CuriousBunnny("Scorbunny", "white");
-HappyPig happyPig = new HappyPig("Swinub", "brown");
-LoudGoose loudGoose = new LoudGoose("Zapdos", "Yellow");
-AngryDuck angryDuck = new AngryDuck("Psyduck", "Yellow");
+CuriousBunnny curiousBunny = new CuriousBunnny("Bunny", "white");
+HappyPig happyPig = new HappyPig("Pig", "brown");
+LoudGoose loudGoose = new LoudGoose("Goose", "Yellow");
+AngryDuck angryDuck = new AngryDuck("Duck", "Yellow");
 
 Animal a1 = new AngryDuck("www", "Yes"); //test
 System.out.println("new animal's name is: " + a1.getName()); //test
@@ -20,7 +20,7 @@ angryDuck.swim();
 System.out.println("Testing if AngryDuck can fly");
 angryDuck.fly();
 System.out.println("Testing setName");
-angryDuck.setName("Psyduck VI");
+angryDuck.setName("Ducky");
 System.out.println("Its name is now " + angryDuck.getName());
 System.out.println("Testing getFlyOrLand :");
 angryDuck.getFlyOrLand();
